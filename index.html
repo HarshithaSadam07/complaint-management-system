@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaint Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Complaint Management System</h1>
+  </header>
+
+  <main>
+    <!-- Complaint Form -->
+    <section class="card">
+      <h2>Submit a Complaint</h2>
+      <form id="complaintForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="category" placeholder="Complaint Category" required>
+        <textarea id="description" placeholder="Complaint Description" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Complaints List -->
+    <section class="card">
+      <h2>My Complaints</h2>
+      <table id="complaintsTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Feedback</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

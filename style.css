@@ -1,0 +1,102 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light Gray Background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #b57edc; /* Lavender */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Form Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e6e6e6; /* Light Gray */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 15px;
+    color: #b57edc; /* Lavender Headings */
+}
+
+/* Inputs & Textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+button {
+    background-color: #b57edc; /* Lavender */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a06fd6;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background-color: #b57edc; /* Lavender Table Header */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Feedback Input */
+.feedback-input {
+    width: 90%;
+    padding: 5px;
+}
+
+/* Action Button */
+.action-btn {
+    background-color: #b57edc; /* Lavender */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #a06fd6;
+}
